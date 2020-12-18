@@ -5,6 +5,17 @@
 <p>Visual Data:</p>
 <p id="visualdata"></p>
 <script>
- debugger;
+ 
+
+ function listener(event) {
+  console.log("got data from parent window", event.data);
+
+  debugger;
+}
+
+if (window.addEventListener) {
+  window.addEventListener("message", listener);
+}
+
 </script>
 </html>
