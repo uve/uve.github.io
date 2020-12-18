@@ -2,18 +2,20 @@
 <body>
 </body>
 <p>This is an Embeded IFRAME window</p>
+<p>https://uve.github.io/</p>
 <p>Visual Data:</p>
-<p id="visualdata"></p>
+<p id="visualdata" style="font-size: 8px;"></p>
+
+
 <script>
- 
 
  function listener(event) {
   console.log("got data from parent window", event.data);
 
-  debugger;
+  document.querySelector("#visualdata").innerText = event.data;
+
 }
 
-debugger;
 if (window.addEventListener) {
   window.addEventListener("message", listener, false);
 }
