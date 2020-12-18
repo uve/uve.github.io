@@ -1,0 +1,25 @@
+{
+    "visual": {
+        "name": "iframedemo",
+        "displayName": "iframedemo",
+        "guid": "iframedemoAAD07CF7593A4C488BDA8817D44DF7CB",
+        "visualClassName": "Visual",
+        "version": "1.0.0",
+        "description": "",
+        "supportUrl": "",
+        "gitHubUrl": ""
+    },
+    "apiVersion": "3.4.0",
+    "author": {
+        "name": "",
+        "email": ""
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": []
+}
